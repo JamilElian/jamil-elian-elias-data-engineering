@@ -21,7 +21,7 @@ The JSON file stores detailed metadata for each episode fetched from the TVmaze 
 
 ## Project Workflow
 
-The analysis inside the notebook follows these core steps:
+The analysis inside the notebook follows these steps:
 
 1. **Data Ingestion:** Fetches the JSON payload directly from the TVmaze API and writes it to HDFS using Hadoop's `FileSystem` API.
 2. **Loading into a Spark DataFrame:** Reads the JSON file from HDFS into a DataFrame while automatically inferring its schema and data types.
