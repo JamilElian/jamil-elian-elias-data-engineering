@@ -2,7 +2,7 @@
 
 ## Dataset Overview (`svepisodes.json`)
 
-The JSON file stores detailed metadata for each episode fetched from the TVmaze API[cite: 1]. The primary columns available are:
+The JSON file stores detailed metadata for each episode fetched from the TVmaze API. The primary columns available are:
 
 | Column | Data Type | Description |
 | :--- | :--- | :--- |
@@ -21,10 +21,10 @@ The JSON file stores detailed metadata for each episode fetched from the TVmaze 
 
 ## Tech Stack
 
-* **Apache Spark (2.x):** Fast, in-memory data processing engine for distributed queries and transformations
+* **Apache Spark:** Fast, in-memory data processing engine for distributed queries and transformations
 * **Scala:** Primary programming language used to interact with Spark APIs
 * **HDFS (Hadoop Distributed File System):** Distributed storage where the JSON file is temporarily written (`/tmp/svepisodes.json`)
-* **Apache Zeppelin:** Interactive web-based notebook used to execute code paragraphs (`%spark.spark`, `%spark.sql`, `%sh`, `%md`, `%angular`)[cite: 1]
+* **Apache Zeppelin:** Interactive web-based notebook used to execute code paragraphs (`%spark.spark`, `%spark.sql`, `%sh`, `%md`, `%angular`)
 
 ---
 
@@ -32,11 +32,11 @@ The JSON file stores detailed metadata for each episode fetched from the TVmaze 
 
 The analysis inside the notebook follows these core steps:
 
-1. **Data Ingestion:** Fetches the JSON payload directly from the TVmaze API and writes it to HDFS using Hadoop's `FileSystem` API[cite: 1].
-2. **Loading into a Spark DataFrame:** Reads the JSON file from HDFS into a DataFrame while automatically inferring its schema and data types[cite: 1].
-3. **Schema & Data Inspection:** Displays the hierarchical tree structure using `printSchema()` and previews tabular records with `show()`[cite: 1].
-4. **Temporary Views & Spark SQL:** Registers the DataFrame as an in-memory temporary view (`svepisodes`) to run SQL queries (such as total episode counts and episode distribution per season)[cite: 1].
+1. **Data Ingestion:** Fetches the JSON payload directly from the TVmaze API and writes it to HDFS using Hadoop's `FileSystem` API.
+2. **Loading into a Spark DataFrame:** Reads the JSON file from HDFS into a DataFrame while automatically inferring its schema and data types.
+3. **Schema & Data Inspection:** Displays the hierarchical tree structure using `printSchema()` and previews tabular records with `show()`.
+4. **Temporary Views & Spark SQL:** Registers the DataFrame as an in-memory temporary view (`svepisodes`) to run SQL queries (such as total episode counts and episode distribution per season).
 5. **Basic Text Processing (Word Count):**
-   * Extracts individual words from the `summary` column[cite: 1].
-   * Normalizes text to lowercase and filters out common stop words and punctuation marks[cite: 1].
-   * Aggregates and sorts word occurrences to highlight the most frequent characters and terms (e.g., *Richard*, *Pied Piper*, *Dinesh*, *Erlich*, *Gavin*, and *Jared*)[cite: 1].
+   * Extracts individual words from the `summary` column.
+   * Normalizes text to lowercase and filters out common stop words and punctuation marks.
+   * Aggregates and sorts word occurrences to highlight the most frequent characters and terms (e.g., *Richard*, *Pied Piper*, *Dinesh*, *Erlich*, *Gavin*, and *Jared*).
