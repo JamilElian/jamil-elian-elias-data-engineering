@@ -19,15 +19,6 @@ The JSON file stores detailed metadata for each episode fetched from the TVmaze 
 
 ---
 
-## Tech Stack
-
-* **Apache Spark:** Fast, in-memory data processing engine for distributed queries and transformations
-* **Scala:** Primary programming language used to interact with Spark APIs
-* **HDFS (Hadoop Distributed File System):** Distributed storage where the JSON file is temporarily written (`/tmp/svepisodes.json`)
-* **Apache Zeppelin:** Interactive web-based notebook used to execute code paragraphs (`%spark.spark`, `%spark.sql`, `%sh`, `%md`, `%angular`)
-
----
-
 ## Project Workflow
 
 The analysis inside the notebook follows these core steps:
