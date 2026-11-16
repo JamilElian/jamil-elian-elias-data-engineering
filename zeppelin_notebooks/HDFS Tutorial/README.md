@@ -1,6 +1,6 @@
 ## Overview
 
-Throughout this tutorial, you will learn how to navigate the HDFS directory hierarchy, upload and download files between the local filesystem and HDFS, inspect storage properties (block size and replication factor), and manage file deletions and Trash recovery[cite: 2].
+Throughout this tutorial, you will learn how to navigate the HDFS directory hierarchy, upload and download files between the local filesystem and HDFS, inspect storage properties (block size and replication factor), and manage file deletions and Trash recovery.
 
 ---
 
