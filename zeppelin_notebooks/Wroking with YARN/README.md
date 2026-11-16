@@ -21,7 +21,7 @@ The notebook walks through four core stages:
 ## Additional tools
 
 * **Apache Hadoop YARN:** Cluster resource management and job scheduling framework.
-* * **Web Interfaces:**
+* **Web Interfaces:**
   * **Resource Manager (RM) UI:** `http://localhost:8088/`
   * **Node Manager (NM) UI:** `http://localhost.localdomain:8042/`
 
