@@ -1,4 +1,4 @@
-## 📋 Lab Overview
+## Lab Overview
 
 The objective of this lab is to become familiar with Spark SQL's distributed structured tables (`DataFrames`), understanding lazy evaluation and the Catalyst optimizer while applying column and row transformations over the **DuoCar** CSV datasets (`rides`, `drivers`, and `riders`) stored in HDFS.
 
