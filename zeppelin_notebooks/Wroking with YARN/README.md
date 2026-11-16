@@ -1,4 +1,4 @@
-## 📋 Lab Overview
+## Lab Overview
 
 The goal of this exercise is to understand how YARN manages cluster resources, allocates containers across worker nodes, and tracks application states. Instead of focusing on application logic, the lab uses a provided PySpark word-count script (`wordcount.py`) running over Loudacre's customer service Knowledge Base dataset to observe live and historical job metrics.
 
