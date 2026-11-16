@@ -18,6 +18,8 @@ The notebook guides you through the following 10 practical exercises:
 | **8 - 9** | **Download Data:** Retrieve the `activations` directory from HDFS back to the local `/tmp/devsh_activations` path and verify its contents. | `hdfs dfs -get /devsh_loudacre/activations/ /tmp/devsh_activations` |
 | **10** | **Clean Up:** Recursively remove the uploaded `activations` directory from HDFS. | `hdfs dfs -rm -r /devsh_loudacre/activations/` |
 
+---
+
 ## Additional files
 
 Confirm that the Loudacre training dataset exists at `/home/training/training_materials/dev/data/activations`
