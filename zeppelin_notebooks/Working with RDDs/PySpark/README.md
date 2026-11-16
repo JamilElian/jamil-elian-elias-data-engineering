@@ -16,3 +16,9 @@ The notebook guides you through the following 13 practical steps:
 | **Upload Phone Makes** | **7** | Upload `makes1.txt` and `makes2.txt` into `/devsh_loudacre` in HDFS. | `hdfs dfs -put -f .../makes*.txt /devsh_loudacre` |
 | **Transform RDDs** | **8 - 13** | Load `makes1RDD` and `makes2RDD`, merge them with `union()` (retaining duplicates), and deduplicate the combined dataset using `distinct()`. | `.union()`, `.distinct()` |
 | **Tear Down** | — | Terminate the active Apache Livy session via REST API cleanup. | `curl -s localhost:8998/sessions/$sessionId -X DELETE` |
+
+---
+
+## Additional files
+
+Verify that the source sample files (`frostroad.txt`, `makes1.txt`, and `makes2.txt`) exist locally at `/home/training/training_materials/dev/data/`
