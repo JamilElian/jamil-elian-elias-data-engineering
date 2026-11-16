@@ -15,3 +15,18 @@ The notebook walks through four core stages:
 | **Submit App** | **5 - 6** | Upload the Knowledge Base dataset (`kb`) to HDFS and submit the PySpark `wordcount.py` job to the YARN cluster (suppressing `stderr` logs for clean output). | `hdfs dfs -put .../kb /devsh_loudacre/`<br>`spark-submit .../wordcount.py /devsh_loudacre/kb/* 2>/dev/null` |
 | **Monitor (Web UI)** | **7 - 9** | Track the running application in the RM Applications tab and inspect allocated containers on the worker node via the Node Manager UI. | YARN RM & NM Web UIs |
 | **Monitor (CLI)** | **10 - 11** | List all running and completed YARN applications and query detailed status reports using the Application ID. | `yarn application -list -appStates ALL`<br>`yarn application -status <app-id>` |
+
+---
+
+## Additional tools
+
+* **Apache Hadoop YARN:** Cluster resource management and job scheduling framework.
+* * **Web Interfaces:**
+  * **Resource Manager (RM) UI:** `http://localhost:8088/`
+  * **Node Manager (NM) UI:** `http://localhost.localdomain:8042/`
+
+---
+
+## Additional files
+
+Verify that the exercise files exist locally at `/home/training/training_materials/dev/exercises/yarn/wordcount.py` and `/home/training/training_materials/dev/data/kb`
