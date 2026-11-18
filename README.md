@@ -10,7 +10,7 @@ Currently focused on Big Data ecosystem practices using **Cloudera**, **Apache H
 
 * **Big Data Ecosystem:** Cloudera Data Platform, Apache Hive, Apache Hadoop (HDFS)
 * **Analytics & Notebooks:** Apache Zeppelin
-* **Data Processing & SQL:** HiveQL, SQL Analytics *(Python & Scala coming soon)*
+* **Data Processing & SQL:** Hive, SQL Analytics *(Python & Scala coming soon)*
 * **Formats:** JSON, Parquet, CSV
 
 ---
