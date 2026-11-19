@@ -58,5 +58,5 @@ hdfs dfs -chmod -R 777 /tmp/training/movies
 
 ### 2. Execute the Hive SQL Script in Cloudera Hue
 1. Open **Cloudera Hue** and navigate to the **Hive** query editor.
-2. Paste the contents of `DE_Labs_HivePartitions.sql` and execute the blocks sequentially (`Ctrl + Enter`).
+2. Paste the contents of `Hive Partitions.sql` and execute the blocks sequentially (`Ctrl + Enter`).
 3. Ensure the `SET hive.exec.dynamic.partition.mode=nonstrict;` statements at the top of the script are executed before running the `INSERT INTO ... PARTITION(...)` statements in **Steps 5 and 8**.
