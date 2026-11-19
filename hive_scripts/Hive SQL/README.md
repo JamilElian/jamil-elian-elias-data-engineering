@@ -21,12 +21,12 @@ The SQL script is organized into three main stages following the lab guide:
 
 1. **Stage the raw dataset in HDFS** (via cluster terminal before opening Hue):
    ```bash
-   mkdir -p /var/tmp/dev/$USER/data/marvel
-   wget -nv -O /var/tmp/dev/$USER/data/marvel/marvel-wikia-data.csv [https://github.com/fivethirtyeight/data/raw/master/comic-characters/marvel-wikia-data.csv](https://github.com/fivethirtyeight/data/raw/master/comic-characters/marvel-wikia-data.csv)
-   hdfs dfs -mkdir -p /tmp/$USER/raw /tmp/$USER/data
-   hdfs dfs -put -f /var/tmp/dev/$USER/data/marvel/marvel-wikia-data.csv /tmp/$USER/raw
-   hdfs dfs -chmod -R 777 /tmp/$USER/raw /tmp/$USER/data
+   mkdir -p /var/tmp/dev/training/data/marvel
+   wget -nv -O /var/tmp/dev/training/data/marvel/marvel-wikia-data.csv [https://github.com/fivethirtyeight/data/raw/master/comic-characters/marvel-wikia-data.csv](https://github.com/fivethirtyeight/data/raw/master/comic-characters/marvel-wikia-data.csv)
+   hdfs dfs -mkdir -p /tmp/training/raw /tmp/training/data
+   hdfs dfs -put -f /var/tmp/dev/training/data/marvel/marvel-wikia-data.csv /tmp/training/raw
+   hdfs dfs -chmod -R 777 /tmp/training/raw /tmp/training/data
    ```
 2. Open **Cloudera Hue** and navigate to the **Hive** or **Spark SQL** editor.
-3. Paste the contents of `DE_Labs_IntroductionToHiveSQL.sql` and replace `${USER}` with your cluster username.
+3. Paste the contents of `DE_Labs_IntroductionToHiveSQL.sql`.
 4. Highlight and run each statement step-by-step (`Ctrl + Enter`) to observe the metastore and HDFS behavior at every stage.
