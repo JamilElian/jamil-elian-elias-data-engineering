@@ -57,5 +57,5 @@ hdfs dfs -chmod -R 777 /tmp/training/movies
 
 ### 2. Execute the Hive SQL Script in Cloudera Hue
 1. Open **Cloudera Hue** and navigate to the **Hive** query editor.
-2. Paste the contents of `DE_Labs_HiveJoins.sql` and execute the blocks sequentially (`Ctrl + Enter`).
+2. Paste the contents of `Hive Joins.sql` and execute the blocks sequentially (`Ctrl + Enter`).
 3. Inspect the output of the `EXPLAIN` statements in **Step 3** to observe how Hive optimizes standard key joins versus function-based (`SUBSTR`) joins.
