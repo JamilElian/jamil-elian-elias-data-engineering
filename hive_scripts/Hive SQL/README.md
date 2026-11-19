@@ -28,5 +28,5 @@ The SQL script is organized into three main stages following the lab guide:
    hdfs dfs -chmod -R 777 /tmp/training/raw /tmp/training/data
    ```
 2. Open **Cloudera Hue** and navigate to the **Hive** or **Spark SQL** editor.
-3. Paste the contents of `DE_Labs_IntroductionToHiveSQL.sql`.
+3. Paste the contents of `Hive SQL.sql`.
 4. Highlight and run each statement step-by-step (`Ctrl + Enter`) to observe the metastore and HDFS behavior at every stage.
