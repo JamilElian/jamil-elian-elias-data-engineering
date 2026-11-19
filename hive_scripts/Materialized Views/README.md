@@ -57,5 +57,5 @@ hdfs dfs -chmod -R 777 /tmp/training/movies
 
 ### 2. Execute the Hive SQL Script in Cloudera Hue
 1. Open **Cloudera Hue** and navigate to the **Hive** query editor.
-2. Paste the contents of `DE_Labs_MaterializedViews.sql` and execute the blocks sequentially (`Ctrl + Enter`).
+2. Paste the contents of `Materialized Views.sql` and execute the blocks sequentially (`Ctrl + Enter`).
 3. Note in **Step 8** that Hive prohibits direct `DELETE` or `UPDATE` statements on a materialized view; modifications must be applied to the underlying transactional table (`movie_title_transaction`) followed by `ALTER MATERIALIZED VIEW mv_movie_title REBUILD`.
