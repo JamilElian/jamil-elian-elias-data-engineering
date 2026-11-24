@@ -1,24 +1,24 @@
 # Data Engineering Portfolio & Labs
 
-Welcome! This repository serves as a centralized hub for my Data Engineering journey, showcasing hands-on labs, Big Data workflows, and data pipelines built with industry-standard tools.
-
-Currently focused on Big Data ecosystem practices using **Cloudera**, **Apache Hive**, and **Apache Zeppelin**.
+Welcome! This repository serves as a centralized hub for my **Data Engineering** journey, showcasing hands-on labs, distributed Big Data workflows, cloud data pipelines, and analytical SQL scripts built with industry-standard tools.
 
 ---
 
 ## Tech Stack & Tools
 
-* **Big Data Ecosystem:** Cloudera Data Platform, Apache Hive, Apache Hadoop (HDFS)
-* **Analytics & Notebooks:** Apache Zeppelin
-* **Data Processing & SQL:** Hive, SQL Analytics *(Python & Scala coming soon)*
-* **Formats:** JSON, Parquet, CSV
+* **Big Data Ecosystem (On-Prem / Hybrid):** Cloudera Data Platform (CDP), Apache Hadoop (HDFS), Apache YARN
+* **Cloud Data Engineering:** Google Cloud Platform (GCP)
+* **Distributed Processing:** Apache Spark 3 (PySpark, Scala, Spark SQL, DataFrames, RDDs)
+* **Data Warehousing & Query Engines:** Apache Hive, Apache Impala, Cloudera Hue
+* **Analytics & Interactive Notebooks:** Apache Zeppelin (Livy & JDBC interpreters), Jupyter / Cloud Notebooks
+* **Storage & File Formats:** Apache Parquet, Apache ORC (ACID Transactional), RegexSerDe, JSON, CSV
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
-.
-├── hive_script/                    # Hive DDL/DML queries and metadata configurations (.json/.hql)
-├── zeppelin_notebooks/             # Exported Zeppelin notebooks (.json) featuring EDA and interactive labs
-└── README.md                       # Repository overview and documentation
+jamil-elian-elias-data-engineering/
+├── cloudera/               # Cloudera Data Platform (CDP) labs: Hive/Impala SQL scripts & Apache Zeppelin notebooks (PySpark & Scala)
+├── google_cloud/           # Google Cloud Platform (GCP) data engineering labs, pipelines, and cloud architectures
+└── README.md               # Main portfolio overview and repository index
