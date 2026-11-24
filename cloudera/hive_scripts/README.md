@@ -35,10 +35,10 @@ To replicate these labs in your own cluster or compatible Hive/Impala environmen
 
 ## Labs Summary
 
-* **Hive SQL (`Hive SQL/`):** Covers core Hive DDL/DML operations, creating databases, contrasting `MANAGED` vs. `EXTERNAL` tables, ingesting data from HDFS (`LOAD DATA INPATH`, `CTAS`), and working with storage formats like Textfile and Parquet.
-* **Hive Transactions (`Hive Transactions/`):** Explores ACID compliance and concurrency in Hive using transactional ORC tables (`transactional=true`) to perform row-level `INSERT`, `UPDATE`, and `DELETE` operations.
-* **Materialized Views (`Materialized Views/`):** Demonstrates the difference between standard logical views and materialized views, leveraging automated query rewrite optimizations and view invalidation/rebuilding.
-* **Hive Joins (`Hive Joins/`):** Implements multi-table relational joins (`INNER`, `LEFT OUTER`, `FULL OUTER`) and join optimization strategies over large IMDb datasets.
-* **Hive Partitions (`Hive Partitions/`):** Covers static and dynamic partitioning (`PARTITIONED BY`) to organize HDFS directory structures and accelerate analytical queries via partition pruning.
-* **Analyzing Text with Hive (`Analyzing Text with Hive/`):** Parses semi-structured Apache web logs using `RegexSerDe` and `REGEXP_EXTRACT`, and performs NLP text mining (`SENTENCES`, `NGRAMS`, `EXPLODE`) on Dualcore product reviews.
-* **Complex Data (`Complex Data/`):** Defines, queries, and unnests nested data structures (`MAP`, `ARRAY`, and `STRUCT`) using dot notation, key/index lookups, and `LATERAL VIEW EXPLODE`, materializing Parquet tables for cross-engine querying with Impala.
+* **Hive SQL (`hive_SQL/`):** Covers core Hive DDL/DML operations, creating databases, contrasting `MANAGED` vs. `EXTERNAL` tables, ingesting data from HDFS (`LOAD DATA INPATH`, `CTAS`), and working with storage formats like Textfile and Parquet.
+* **Hive Transactions (`hive_transactions/`):** Explores ACID compliance and concurrency in Hive using transactional ORC tables (`transactional=true`) to perform row-level `INSERT`, `UPDATE`, and `DELETE` operations.
+* **Materialized Views (`materialized_views/`):** Demonstrates the difference between standard logical views and materialized views, leveraging automated query rewrite optimizations and view invalidation/rebuilding.
+* **Hive Joins (`hive_joins/`):** Implements multi-table relational joins (`INNER`, `LEFT OUTER`, `FULL OUTER`) and join optimization strategies over large IMDb datasets.
+* **Hive Partitions (`hive_partitions/`):** Covers static and dynamic partitioning (`PARTITIONED BY`) to organize HDFS directory structures and accelerate analytical queries via partition pruning.
+* **Analyzing Text with Hive (`analyzing_text_with_hive/`):** Parses semi-structured Apache web logs using `RegexSerDe` and `REGEXP_EXTRACT`, and performs NLP text mining (`SENTENCES`, `NGRAMS`, `EXPLODE`) on Dualcore product reviews.
+* **Complex Data (`complex_data/`):** Defines, queries, and unnests nested data structures (`MAP`, `ARRAY`, and `STRUCT`) using dot notation, key/index lookups, and `LATERAL VIEW EXPLODE`, materializing Parquet tables for cross-engine querying with Impala.
