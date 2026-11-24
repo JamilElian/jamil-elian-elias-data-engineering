@@ -6,7 +6,7 @@ Currently focused on Big Data ecosystem practices using **Cloudera**, **Apache H
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 
 * **Big Data Ecosystem:** Cloudera Data Platform, Apache Hive, Apache Hadoop (HDFS)
 * **Analytics & Notebooks:** Apache Zeppelin
