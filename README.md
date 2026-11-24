@@ -19,6 +19,6 @@ Currently focused on Big Data ecosystem practices using **Cloudera**, **Apache H
 
 ```text
 .
-├── hive_scripts/      # Exported Zeppelin notebooks (.json) featuring EDA and interactive labs
+├── hive_script/      # Exported Zeppelin notebooks (.json) featuring EDA and interactive labs
 ├── zeppelin_notebooks/            # Hive DDL/DML queries and metadata configurations (.json/.hql)
 └── README.md                # Repository overview and documentation
