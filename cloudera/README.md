@@ -4,7 +4,7 @@ Welcome! This directory serves as a centralized portfolio of hands-on labs, SQL 
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 
 * **Big Data Ecosystem:** Cloudera Data Platform (CDP), Apache Hadoop (HDFS), Apache YARN
 * **SQL & Data Warehousing:** Apache Hive, Apache Impala, Cloudera Hue
@@ -14,7 +14,7 @@ Welcome! This directory serves as a centralized portfolio of hands-on labs, SQL 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 cloudera/
