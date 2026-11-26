@@ -8,7 +8,7 @@ In this lab, **Google Cloud Marketplace** is used to quickly provision and deplo
 
 ## Stack Architecture & Components
 
-![LAMP Stack Architecture](screenshots/00_lamp_architecture.png)
+![LAMP Stack Architecture](screenshots/00_lamp_architecture.PNG)
 
 Inside the **Linux (Ubuntu 26.04)** host, incoming **HTTP/HTTPS** requests are handled by the **Apache HTTP Server**, which serves static assets (`index.html`, CSS, JS) and delegates dynamic execution via `mod_php` to the **PHP interpreter** (powering tools such as **phpMyAdmin**) connected to the **MySQL** relational database:
 
