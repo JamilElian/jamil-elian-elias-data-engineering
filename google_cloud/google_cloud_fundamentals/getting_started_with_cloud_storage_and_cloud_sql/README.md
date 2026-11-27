@@ -55,7 +55,7 @@ This lab demonstrates how to integrate three core Google Cloud infrastructure an
 getting_started_with_cloud_storage_and_cloud_sql/
 ├── screenshots/        # 63 step-by-step execution screenshots (.PNG)
 ├── src/
-│   ├── index.php       # Apache/PHP front end integrating Cloud SQL (PDO) and Cloud Storage
+│   ├── index.html      # Apache/PHP front end integrating Cloud SQL (PDO) and Cloud Storage
 │   └── startup.sh      # Corrected VM startup script installing Apache2, PHP, and php-mysql
 └── README.md           # Lab documentation, architecture summary, and evidence
 ```
@@ -72,7 +72,7 @@ sudo apt-get update && apt-get install apache2 php php-mysql -y
 service apache2 restart
 ```
 
-### `src/index.php`
+### `src/index.html`
 
 ```html
 <html>
